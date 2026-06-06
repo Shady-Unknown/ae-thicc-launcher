@@ -29,6 +29,8 @@ Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the ho
 *   **Smart Resolver:** Automatically resolves and fetches direct download links from hosters like MegaDB, Pixeldrain, Buzzheavier, Qiwi, Gofile, and FileDitch.
 *   **Auto-Extraction & Installation:** Games are downloaded, automatically extracted, and neatly placed into your designated "Watched Folders".
 
+![Screen1](Schermata_20260607_000113.png)
+
 ### Advanced Library Management
 *   **Orphan Recovery:** Found an old SteamRIP folder? The launcher can automatically scan it, fetch the correct metadata from the web, and populate it into your library.
 *   **Update Checker:** Compares your local game version against the web version. If a new patch or update is available, it notifies you and helps you download the patch files directly.
@@ -45,6 +47,8 @@ Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the ho
 *   **Proton Ready:** On Linux/Steam Deck, the launcher automatically configures Steam shortcuts to use `Proton GE` or `Proton Experimental`, getting you ready to play immediately.
 
 ---
+
+![Screen1](Schermata_20260607_000046.png)
 
 ## Getting Started & Setup
 
