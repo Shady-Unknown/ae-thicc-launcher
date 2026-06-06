@@ -1,3 +1,7 @@
+<img src="AeThiccLauncherLogoBig.png" width="256" /> <img src="Schermata_20260607_000113.png" height="256" /> <img src="Schermata_20260607_000046.png" height="256" />
+
+
+
 # TO INSTALL (LINUX)
 _flatpak install --user Install_AeThiccLauncher.flatpak_
 
@@ -29,7 +33,6 @@ Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the ho
 *   **Smart Resolver:** Automatically resolves and fetches direct download links from hosters like MegaDB, Pixeldrain, Buzzheavier, Qiwi, Gofile, and FileDitch.
 *   **Auto-Extraction & Installation:** Games are downloaded, automatically extracted, and neatly placed into your designated "Watched Folders".
 
-![Screen1](Schermata_20260607_000113.png)
 
 ### Advanced Library Management
 *   **Orphan Recovery:** Found an old SteamRIP folder? The launcher can automatically scan it, fetch the correct metadata from the web, and populate it into your library.
@@ -48,7 +51,6 @@ Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the ho
 
 ---
 
-![Screen1](Schermata_20260607_000046.png)
 
 ## Getting Started & Setup
 
