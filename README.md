@@ -1,4 +1,4 @@
-TO INSTALL
+# TO INSTALL
 flatpak install --user Install_AeThiccLauncher.flatpak
 
 
