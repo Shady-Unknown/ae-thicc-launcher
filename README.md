@@ -1,5 +1,5 @@
 # TO INSTALL
-flatpak install --user Install_AeThiccLauncher.flatpak
+_flatpak install --user Install_AeThiccLauncher.flatpak_
 
 
 
