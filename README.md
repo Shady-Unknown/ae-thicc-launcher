@@ -1,3 +1,8 @@
+TO INSTALL
+flatpak install --user Install_AeThiccLauncher.flatpak
+
+
+
 # Ae Thicc Launcher (Unofficial SteamRIP Client) v1.1
 
 Welcome to **Ae Thicc Launcher**, the ultimate desktop companion designed to seamlessly manage, download, and update your SteamRIP library. 
