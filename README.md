@@ -1,4 +1,4 @@
-<img src="AeThiccLauncherLogoBig.png" width="256" /> <img src="Schermata_20260607_000113.png" height="256" /> <img src="Schermata_20260607_000046.png" height="256" />
+<img src="AeThiccLauncherLogoBig.png" width="200" /> <img src="Schermata_20260607_000113.png" height="200" /> <img src="Schermata_20260607_000046.png" height="200" />
 
 
 
