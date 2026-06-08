@@ -28,14 +28,14 @@ Still many Ethic features are work in progress behind the scenes, but what this 
 
 ### Smart Explorer & Downloader
 *   **Integrated Catalog:** Instantly search through the entire SteamRIP database with a lightning-fast auto-completing search bar.
-*   **Cloudflare Bypass:** A stealthy, built-in headless browser handles Cloudflare challenges automatically, so your downloads never get stuck.
-*   **Smart Resolver:** Automatically resolves and fetches direct download links from hosters like MegaDB, Pixeldrain, Buzzheavier, Qiwi, Gofile, and FileDitch.
+*   **Cloudflare Bypass:** A stealthy, built-in browser handles Cloudflare challenges automatically whenever possible, so your downloads never get stuck.
+*   **Smart Resolver:** Automatically resolves and fetches direct download links from hosters.
 *   **Auto-Extraction & Installation:** Games are downloaded, automatically extracted, and neatly placed into your designated "Watched Folders".
 
 
 ### Advanced Library Management
-*   **Orphan Recovery:** Found an old SteamRIP folder? The launcher can automatically scan it, fetch the correct metadata from the web, and populate it into your library.
-*   **Update Checker:** Compares your local game version against the web version. If a new patch or update is available, it notifies you and helps you download the patch files directly.
+*   **Orphan Recovery:** Found an old folder? The launcher can automatically scan it, fetch the correct metadata from the web, and populate it into your library.
+*   **Update Checker:** Compares your local game version against the web version. If a new update is available, it notifies you and helps you download the games directly (no patch files supported now, unless specified by the host game's page)
 *   **Digital Store Links:** Automatically grabs official Steam and GOG store links so you can check out the official pages.
 
 ### Savegames Manager
@@ -45,7 +45,7 @@ Still many Ethic features are work in progress behind the scenes, but what this 
 
 ### Steam Integration & Linux/Deck Support
 *   **One-Click Steam Injection:** Add your non-Steam games directly into your Steam Library with a single click.
-*   **Automated Artwork:** The launcher communicates with SteamGridDB to fetch and apply Covers, Heroes, and Logos dynamically.
+*   **Automated Artwork:** The launcher downloads and applies Covers, Heroes, and Logos to your Steam Library entries dynamically!
 *   **Proton Ready:** On Linux/Steam Deck, the launcher automatically configures Steam shortcuts to use `Proton GE` or `Proton Experimental`, getting you ready to play immediately.
 
 ---
@@ -53,9 +53,9 @@ Still many Ethic features are work in progress behind the scenes, but what this 
 
 ## Getting Started & Setup
 
-1.  **Configure Watched Folders:** Upon your first launch, head to the **Configuration Panel**. Add at least one "Watched Folder" (e.g., `C:\Games` or `/home/deck/Games`). This is where the launcher will scan for installed games and extract new downloads.
-2.  **Configure Save Sync Folder:** In the settings, designate a folder where your savegame backups will be stored.
-3.  **Search & Play:** Go to the Explorer tab, type a game name or paste a SteamRIP URL, hit Enter, and let the launcher do the heavy lifting!
+1.  **Configure Watched Folders:** Upon your first launch, head to the **Configuration Panel** under the **Settings** Menu. Add at least one "Watched Folder" (e.g., `C:\Games` or `/home/deck/Games`). This is where the launcher will scan for installed games and extract new downloads.
+2.  **Configure Save Sync Folder:** In the settings, designate a folder where your savegame backups will be stored (default no forced designation, it has a default path OS based)
+3.  **Search & Play:** Go to the Explorer tab, type a game name or paste a VALID URL (wink wink), hit Enter, and let the launcher do the heavy lifting!
 
 ---
 
