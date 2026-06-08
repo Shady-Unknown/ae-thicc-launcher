@@ -9,13 +9,19 @@ _flatpak install --user Install_AeThiccLauncher.flatpak_
 _Simply extract wherever you see fit and launch. Default paths point to common applications data folders by default, but you can change them in the settings_
 
 
+# Ae Thicc Launcher (Unofficial SteamRIP Client)
 
-# Ae Thicc Launcher (Unofficial SteamRIP Client) v1.1
+Welcome to **Ae Thicc Launcher**, the ultimate desktop companion designed to seamlessly manage, download, and update your games library. 
 
-Welcome to **Ae Thicc Launcher**, the ultimate desktop companion designed to seamlessly manage, download, and update Games library. 
-It doesn't just have some aesthetic. It has a **goal**
-This launcher is built to support people, to preserve games, allow long life playing time, help with savegames preservation along with their related games and mostly, it's built around an idea.
-Still many Ethic features are work in progress behind the scenes, but what this Launcher aims for is "Do what you want with YOUR software, but remember to support worthy developers.
+This launcher doesn't just have an aesthetic; it has a **purpose**. 
+
+In an industry increasingly dominated by the **aggressive monetization** of big corporations, **game preservation** and accessibility have never been **more critical**. **Ae Thicc Launcher** was built to ensure that everyone, regardless of their current financial capability, can access, play, and retain the games they love. We care deeply about true software ownership, giving you the tools to preserve your game files and your hard-earned savegames forever.
+
+However, this freedom comes with a strong moral compass. We believe in voting with our wallets and supporting those who respect the medium. Our core motto, and the driving force behind this project, is simple:
+
+> **"If a Developer or Publisher isn't aggressively monetizing, if they care about the customer and support them, THEN BUY THE GAME. THEY DESERVE IT."**
+
+While many of our ethical features are still actively being developed behind the scenes, everything we build aims to strike this balance: do what you want with YOUR software, but always remember to reward the non-toxic, passionate developers who make this industry great.
 
 ---
 ## UPCOMING
