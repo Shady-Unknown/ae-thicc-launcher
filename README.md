@@ -12,18 +12,17 @@ _Simply extract wherever you see fit and launch. Default paths point to common a
 
 # Ae Thicc Launcher (Unofficial SteamRIP Client) v1.1
 
-Welcome to **Ae Thicc Launcher**, the ultimate desktop companion designed to seamlessly manage, download, and update your SteamRIP library. 
-Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the hood, this launcher takes the hassle out of manual extractions, updates, and savegame backups.
+Welcome to **Ae Thicc Launcher**, the ultimate desktop companion designed to seamlessly manage, download, and update Games library. 
+It doesn't just have some aesthetic. It has a **goal**
+This launcher is built to support people, to preserve games, allow long life playing time, help with savegames preservation along with their related games and mostly, it's built around an idea.
+Still many Ethic features are work in progress behind the scenes, but what this Launcher aims for is "Do what you want with YOUR software, but remember to support worthy developers.
 
 ---
-
-## What's New in Version 1.1?
-*   **Windows Launch System Overhauled:** Fixed and improved the game launching and executable detection logic for Windows environments, making it more reliable than ever.
-*   **Graphical Improvements:** Polished UI elements, smoother SVG icon colorization, and refined neon gradients for an even better visual experience.
-*   **Light Theme Compatibility:** The UI now gracefully supports and adapts to light themes, giving you more customization freedom without breaking the aesthetics.
-*   **General Bugfixing:** Under-the-hood stability improvements, better network drop handling, and optimized background processes.
-
----
+## UPCOMING
+*   **Steam Sales Mirror:** You got that game in your library. It's SO GOOD! And the devs? You heard great about them. We'll let you know when that piece of art is for sale on **STEAM** and/or **GOG**
+*   **Gold Tier:** Games from known Software Houses, verified by the community, in which you can rely forever. Non Toxic, Non Predatory, Quality made games that deserves a spotlight
+*   **ESRB:** I'm about to be one of those who's gonna make a ton of dad jokes. It's not much, we care about privacy as much as we care about your children being safe, and you being a parent
+*   
 
 ## Key Features
 
@@ -39,8 +38,8 @@ Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the ho
 *   **Update Checker:** Compares your local game version against the web version. If a new patch or update is available, it notifies you and helps you download the patch files directly.
 *   **Digital Store Links:** Automatically grabs official Steam and GOG store links so you can check out the official pages.
 
-### Next-Gen Savegames Manager
-*   **Ludusavi Integration:** Automatically fetches the Ludusavi manifest to locate exactly where your game saves are stored, even translating Windows paths (`%appdata%`, `%userprofile%`, etc.) to Linux Proton prefixes.
+### Savegames Manager
+*   **Ludusavi Integration:** Automatically fetches game informations to locate exactly where your game saves are stored, both for Windows and Linux (Proton) prefixes.
 *   **Automated Backups:** Set a sync interval or let the launcher do the work. The built-in **Process Monitor** detects when you close a game and immediately backs up your latest save securely.
 *   **Versioning:** Keeps a rotating history of your last 3 save snapshots, so you can always roll back if your file gets corrupted.
 
@@ -60,16 +59,17 @@ Built with a gorgeous Cyberpunk-inspired UI and powerful automation under the ho
 
 ---
 
-## Ethical Piracy Disclaimer
-
-As displayed within the launcher:
-> *"If you like the game and the software house / publisher aren't aggressive monetizers, if they are pro-users, if they support the customer, **BUY THE GAME. THEY DESERVE IT.***"
-
-Support good developers and the gaming industry whenever you can.
+## Technical Notes for Power Users
+*   **Metadata:** Game metadata is stored locally inside each game's folder in a `steamrip_meta.json` file. You can back up your games just by moving the folder; the launcher will recognize them instantly on the next scan.
+*   **Cache:** The Master Catalog caches locally and updates in the background unnecessary network requests.
+*   **Network Drops:** The smart downloader supports resume functionality. If your connection drops, it will automatically attempt to resume up to 10 times. Results may vary depending on hosts.
 
 ---
 
-## Technical Notes for Power Users
-*   **Metadata:** Game metadata is stored locally inside each game's folder in a `steamrip_meta.json` file. You can back up your games just by moving the folder; the launcher will recognize them instantly on the next scan.
-*   **Cache:** The Master Catalog caches locally and updates in the background every 12 hours to prevent unnecessary network requests.
-*   **Network Drops:** The smart downloader supports resume functionality (`Range` headers). If your connection drops, it will automatically attempt to resume up to 10 times.
+## What's New in Version 1.1?
+*   **Windows Launch System Overhauled:** Fixed and improved the game launching and executable detection logic for Windows environments, making it more reliable than ever.
+*   **Graphical Improvements:** Polished UI elements, smoother SVG icon colorization, and refined neon gradients for an even better visual experience.
+*   **Light Theme Compatibility:** The UI now gracefully supports and adapts to light themes, giving you more customization freedom without breaking the aesthetics.
+*   **General Bugfixing:** Under-the-hood stability improvements, better network drop handling, and optimized background processes.
+
+---
