@@ -251,6 +251,67 @@
       "developer": "New Blood Interactive",
       "steam_id": "1229490",
       "ethical_reason": "Published by New Blood, a proudly anti-corporate and pro-developer studio. It delivers an adrenaline-fueled retro shooter experience developed transparently alongside the community. Features absolutely zero microtransactions, no intrusive DRM, and flawless Proton performance."
+    },
+    {
+      "game_id": "half_life",
+      "title": "Half-Life",
+      "developer": "Valve",
+      "steam_id": "70",
+      "ethical_reason": "A monumental piece of gaming history with absolute respect for preservation. Features robust native Linux support, completely zero microtransactions, and actively embraces a massive modding community that has kept the game alive and evolving for decades."
+    },
+    {
+      "game_id": "half_life_2",
+      "title": "Half-Life 2",
+      "developer": "Valve",
+      "steam_id": "220",
+      "ethical_reason": "Continues Valve's legacy of consumer respect for single-player titles. It is a strictly buy-to-play masterpiece with no predatory mechanics, incredible community modding support, DRM-free options, and flawless native Linux compatibility."
+    },
+    {
+      "game_id": "portal",
+      "title": "Portal",
+      "developer": "Valve",
+      "steam_id": "400",
+      "ethical_reason": "A perfectly self-contained, buy-to-play puzzle masterpiece. It completely avoids microtransactions, respects the player's time, and runs natively on Linux, ensuring long-term software preservation without intrusive third-party software."
+    },
+    {
+      "game_id": "portal_2",
+      "title": "Portal 2",
+      "developer": "Valve",
+      "steam_id": "620",
+      "ethical_reason": "An ethical standard for co-op and single-player design. While it features an extremely minor cosmetic shop, it relies completely on standard gameplay and community-made test chambers for longevity. It is fully playable offline, supports local co-op, and features stellar native Linux support."
+    },
+    {
+      "game_id": "doom_classic_complete",
+      "title": "DOOM (Classic)",
+      "developer": "id Software",
+      "steam_id": "2280",
+      "ethical_reason": "The ultimate triumph of game preservation. id Software released the engine's source code, allowing the community to build countless open-source ports. It is entirely DRM-free, universally compatible, and stands as a timeless, complete experience with zero microtransactions."
+    },
+    {
+      "game_id": "quake",
+      "title": "Quake",
+      "developer": "id Software",
+      "steam_id": "2310",
+      "ethical_reason": "Pioneered community empowerment by releasing its source code. The recent official remasters respect early adopters by providing the upgrade for free. It features zero monetization beyond the initial purchase, massive mod support, and total cross-platform and Linux compatibility."
+    },
+    {
+      "game_id": "quake_2",
+      "title": "Quake II",
+      "developer": "id Software",
+      "steam_id": "2320",
+      "ethical_reason": "Follows the exact same open-source, community-driven philosophy as its predecessor. The remastered version was gifted to existing owners and includes all expansions for free. It is DRM-free, respects player ownership, and features impeccable compatibility without predatory mechanics."
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
