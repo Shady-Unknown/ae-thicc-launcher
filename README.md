@@ -3,7 +3,7 @@
 
 
 # TO INSTALL (LINUX)
-_flatpak install --user Install_AeThiccLauncher.flatpak_
+_flatpak install --user Ae_Thicc_Launcher_Linux.flatpak
 
 # TO INSTALL (Windows)
 _Simply extract wherever you see fit and launch. Default paths point to common applications data folders by default, but you can change them in the settings_
