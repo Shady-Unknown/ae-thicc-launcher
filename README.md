@@ -36,7 +36,7 @@ While many of our ethical features are still actively being developed behind the
 ### Smart Explorer & Downloader
 *   **Integrated Catalog:** Instantly search through the entire SteamRIP database with a lightning-fast auto-completing search bar.
 *   **Cloudflare Bypass:** A stealthy, built-in browser handles Cloudflare challenges automatically whenever possible, so your downloads never get stuck.
-*   **Smart Resolver:** Automatically resolves and fetches direct download links from hosters.
+*   **Smart Resume**: if the provider supports it you can resume your download, even between sessions. Low bandwidth? Latency or unstable connections? We got you. Just press "play" again and the download will resume from where it stopped
 *   **Auto-Extraction & Installation:** Games are downloaded, automatically extracted, and neatly placed into your designated "Watched Folders".
 
 
