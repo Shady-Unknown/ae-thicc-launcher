@@ -300,8 +300,29 @@
       "developer": "id Software",
       "steam_id": "2320",
       "ethical_reason": "Follows the exact same open-source, community-driven philosophy as its predecessor. The remastered version was gifted to existing owners and includes all expansions for free. It is DRM-free, respects player ownership, and features impeccable compatibility without predatory mechanics."
+    },
+    {
+      "game_id": "kingdom_come_deliverance",
+      "title": "Kingdom Come: Deliverance",
+      "developer": "Warhorse Studios",
+      "steam_id": "379430",
+      "ethical_reason": "A pure, uncompromising single-player historical RPG with strictly zero microtransactions or live-service mechanics. Warhorse Studios respects the player's purchase, offering substantial, story-rich expansions rather than predatory cosmetic shops. It also boasts excellent out-of-the-box performance via Proton."
+    },
+    {
+      "game_id": "kingdom_come_deliverance_2",
+      "title": "Kingdom Come: Deliverance II",
+      "developer": "Warhorse Studios",
+      "steam_id": "1771300",
+      "ethical_reason": "Continues the studio's staunch commitment to massive, single-player, buy-to-play experiences. It explicitly rejects modern predatory monetization trends and forced multiplayer, ensuring a complete, immersive narrative package upon purchase while maintaining strong compatibility standards."
+    },
+    {
+      "game_id": "stray",
+      "title": "Stray",
+      "developer": "BlueTwelve Studio",
+      "steam_id": "1332010",
+      "ethical_reason": "A perfectly self-contained, beautifully crafted single-player adventure. BlueTwelve Studio and Annapurna Interactive delivered a complete artistic vision with absolutely zero microtransactions, live-service mechanics, or hidden costs. It highly respects the player's time and runs flawlessly on Linux via Proton."
     }
-  ]
+  ]  
 }
 
 
