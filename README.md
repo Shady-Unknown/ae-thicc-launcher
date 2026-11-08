@@ -5,6 +5,17 @@
 # TO INSTALL (LINUX)
 _flatpak install --user Ae_Thicc_Launcher_Linux.flatpak_
 
+Remember to Install ffmpeg to have game trailers working in the brand new "Discovery" view!
+
+Trailers play out of the box. To also get smooth seeking on Linux, install `ffmpeg` with your distribution's package manager:
+
+| Distribution | Command |
+|---|---|
+| Debian / Ubuntu / Mint / Pop!_OS | `sudo apt install ffmpeg` |
+| Fedora | `sudo dnf install ffmpeg` |
+| Arch / Manjaro / EndeavourOS | `sudo pacman -S ffmpeg` |
+| openSUSE | `sudo zypper install ffmpeg` |
+
 # TO INSTALL (Windows)
 _Simply extract wherever you see fit and launch. Default paths point to common applications data folders by default, but you can change them in the settings_
 
@@ -28,10 +39,17 @@ While many of our ethical features are still actively being developed behind the
 
 *   **ESRB:** I'm about to be one of those who's gonna make a ton of dad jokes. It's not much, we care about privacy as much as we care about your children being safe, and you being a parent
 *   **Cloud Saves Sync**: Having your games saved on the cloud (your own personal GDrive or similar) will make things twice as easy once you format, or move on with different games.
-*   **Discovery**: Searching by name is good, but how good is the old fashioned Netflix-like UI with the trending games? :D
 
 
 ## Key Features
+
+### Discovery
+*   **Doomscroll the catalog:** a single-row horizontal scroller that never ends. Pick a category, keep scrolling, find the game you'll install at 3 AM.
+*   **Per-category browsing:** Trending, New Releases, Recently Updated and every SteamRIP category, one at a time, with a jump selector when you already know where to go.
+*   **Search anything:** type a few characters and get one row with every matching game across the whole catalog.
+*   **Game cards:** one click opens the full sheet — cover, rating, genres, themes, game modes, developer, publisher, platforms, description and SteamRIP vs Steam build.
+*   **Install in one click:** the *Install* button opens the game in the Games Explorer with its download links ready.
+*   **Built-in trailer player:** fullscreen, volume, mute and smooth seeking; trailers are cached locally, so repeat views start instantly.
 
 ### Smart Explorer & Downloader
 *   **Integrated Catalog:** Instantly search through the entire SteamRIP database with a lightning-fast auto-completing search bar.
@@ -44,7 +62,7 @@ While many of our ethical features are still actively being developed behind the
 *   **Orphan Recovery:** Found an old folder? The launcher can automatically scan it, fetch the correct metadata from the web, and populate it into your library.
 *   **Update Checker:** Compares your local game version against the web version. If a new update is available, it notifies you and helps you download the games directly (no patch files supported now, unless specified by the host game's page)
 *   **Digital Store Links:** Automatically grabs official Steam and GOG store links so you can check out the official pages.
-*   *   **Steam Sales Mirror:** You got that game in your library. It's SO GOOD! And the devs? You heard great about them. We'll let you know when that piece of art is for sale on **STEAM** and/or **GOG** (nope, F* off Epic)
+*   **Steam Sales Mirror:** You got that game in your library. It's SO GOOD! And the devs? You heard great about them. We'll let you know when that piece of art is for sale on **STEAM** and/or **GOG** (nope, F* off Epic)
 *   **Gold Tier:** Games from known Software Houses, verified by the community, in which you can rely forever. Non Toxic, Non Predatory, Quality made games that deserves a spotlight
 
 ### Savegames Manager
@@ -66,19 +84,36 @@ While many of our ethical features are still actively being developed behind the
 2.  **Configure Save Sync Folder:** In the settings, designate a folder where your savegame backups will be stored (default no forced designation, it has a default path OS based)
 3.  **Search & Play:** Go to the Explorer tab, type a game name or paste a VALID URL (wink wink), hit Enter, and let the launcher do the heavy lifting!
 
+### ffmpeg on Linux (trailer seeking)
+Trailers play out of the box. To also get smooth seeking on Linux, install `ffmpeg` with your distribution's package manager:
+
+| Distribution | Command |
+|---|---|
+| Debian / Ubuntu / Mint / Pop!_OS | `sudo apt install ffmpeg` |
+| Fedora | `sudo dnf install ffmpeg` |
+| Arch / Manjaro / EndeavourOS | `sudo pacman -S ffmpeg` |
+| openSUSE | `sudo zypper install ffmpeg` |
+
+On **Steam Deck (SteamOS)** the system is immutable: use `sudo steamos-readonly disable && sudo pacman -S ffmpeg && sudo steamos-readonly enable` (it may need to be repeated after a SteamOS update), or run the launcher from a distrobox/container that has ffmpeg.
+
+On **Windows** nothing is needed: the launcher bundles what it requires.
+
+In the **Flatpak** build the launcher runs inside a sandbox: seeking works if `ffmpeg` is available there, otherwise the trailer streams normally without seeking.
+
 ---
 
 ## Technical Notes for Power Users
 *   **Metadata:** Game metadata is stored locally inside each game's folder in a `steamrip_meta.json` file. You can back up your games just by moving the folder; the launcher will recognize them instantly on the next scan.
-*   **Cache:** The Master Catalog caches locally and updates in the background unnecessary network requests.
+*   **Cache:** The Master Catalog caches locally and updates in the background to prevent unnecessary network requests.
 *   **Network Drops:** The smart downloader supports resume functionality. If your connection drops, it will automatically attempt to resume up to 10 times. Results may vary depending on hosts.
+*   **Trailers:** the first time a trailer is opened it is prepared in a local cache so seeking is instant and repeat views start immediately. On Windows the needed tool is bundled; on Linux install `ffmpeg` (see above) to enable seeking.
 
 ---
 
-## What's New in Version 1.1?
-*   **Windows Launch System Overhauled:** Fixed and improved the game launching and executable detection logic for Windows environments, making it more reliable than ever.
-*   **Graphical Improvements:** Polished UI elements, smoother SVG icon colorization, and refined neon gradients for an even better visual experience.
-*   **Light Theme Compatibility:** The UI now gracefully supports and adapts to light themes, giving you more customization freedom without breaking the aesthetics.
-*   **General Bugfixing:** Under-the-hood stability improvements, better network drop handling, and optimized background processes.
+## What's New in Version 1.6.0?
+*   **Discovery:** a per-category, single-row horizontal scroller with infinite scrolling — doomscroll the SteamRIP catalog until you find your next game. Search across every category from the same search bar.
+*   **Game cards:** click a cover for the full sheet — cover, rating, genres, themes, game modes, developer, publisher, platforms, description and whether the SteamRIP build is up to date with Steam. **Install** opens the game in the Games Explorer with its download links ready.
+*   **Built-in trailer player:** watch trailers without leaving the launcher — fullscreen, volume, mute and smooth seeking. Trailers are cached locally after the first view; on Linux install `ffmpeg` for seeking (on Windows it is bundled).
+*   **Fast and light:** covers, details and descriptions load in the background and are cached, so the launcher opens quickly and browsing stays smooth.
 
 ---
