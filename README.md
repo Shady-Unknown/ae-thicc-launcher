@@ -1,7 +1,14 @@
- <img src="DiscoveryTab.png" height="120" /><img src="Schermata_20260607_000113.png" height="120" /><img src="Schermata_20260607_000046.png" height="120" />
+ <img src="DiscoveryTab.png" height="120" /><img src="Schermata_20260607_000113.png" height="120" /><img src="Schermata_20260607_000046.png" height="120" /><img src="AeThiccLauncherLogoBig.png" width="120" align="center" alt="Ae Thicc Launcher Logo" />
 
- <img src="AeThiccLauncherLogoBig.png" width="120" align="center" alt="Ae Thicc Launcher Logo" />
+## Community
 
+<a href="https://discord.gg/4WF7YU3ynC"><img src="discorda.jpg" width="80" align="left" alt="Ae Thicc Launcher Discord" /></a>
+
+**Join the Ae Thicc Launcher Discord** — get help with setup, report bugs, suggest features, or just hang out and talk games.
+
+**[discord.gg/4WF7YU3ynC](https://discord.gg/4WF7YU3ynC)**
+
+<br clear="both" />
 
 
 # TO INSTALL (LINUX)
@@ -36,20 +43,9 @@ However, this freedom comes with a strong moral compass. We believe in voting wi
 
 While many of our ethical features are still actively being developed behind the scenes, everything we build aims to strike this balance: do what you want with YOUR software, but always remember to reward the non-toxic, passionate developers who make this industry great.
 
-## Community
-
-<a href="https://discord.gg/4WF7YU3ynC"><img src="discorda.jpg" width="80" align="left" alt="Ae Thicc Launcher Discord" /></a>
-
-**Join the Ae Thicc Launcher Discord** — get help with setup, report bugs, suggest features, or just hang out and talk games.
-
-**[discord.gg/4WF7YU3ynC](https://discord.gg/4WF7YU3ynC)**
-
-<br clear="both" />
-
 ---
 ## UPCOMING
 
-*   **ESRB:** I'm about to be one of those who's gonna make a ton of dad jokes. It's not much, we care about privacy as much as we care about your children being safe, and you being a parent
 *   **Cloud Saves Sync**: Having your games saved on the cloud (your own personal GDrive or similar) will make things twice as easy once you format, or move on with different games.
 
 
