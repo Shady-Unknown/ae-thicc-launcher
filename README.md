@@ -1,4 +1,4 @@
- <img src="Schermata_20260607_000113.png" height="200" /> <img src="AeThiccLauncherLogoBig.png" width="200" /> <img src="Schermata_20260607_000046.png" height="200" />
+ <img src="discoveryTab.png" height="120" /><img src="Schermata_20260607_000113.png" height="120" /> <img src="AeThiccLauncherLogoBig.png" width="120" /> <img src="Schermata_20260607_000046.png" height="120" />
 
 
 
@@ -34,6 +34,16 @@ However, this freedom comes with a strong moral compass. We believe in voting wi
 
 While many of our ethical features are still actively being developed behind the scenes, everything we build aims to strike this balance: do what you want with YOUR software, but always remember to reward the non-toxic, passionate developers who make this industry great.
 
+## Community
+
+<a href="https://discord.gg/4WF7YU3ynC"><img src="discorda.jpg" width="80" align="left" alt="Ae Thicc Launcher Discord" /></a>
+
+**Join the Ae Thicc Launcher Discord** — get help with setup, report bugs, suggest features, or just hang out and talk games.
+
+**[discord.gg/4WF7YU3ynC](https://discord.gg/4WF7YU3ynC)**
+
+<br clear="both" />
+
 ---
 ## UPCOMING
 
@@ -45,9 +55,11 @@ While many of our ethical features are still actively being developed behind the
 
 ### Discovery
 *   **Doomscroll the catalog:** a single-row horizontal scroller that never ends. Pick a category, keep scrolling, find the game you'll install at 3 AM.
-*   **Per-category browsing:** Trending, New Releases, Recently Updated and every SteamRIP category, one at a time, with a jump selector when you already know where to go.
+*   **Per-category browsing:** Trending, New Releases, Recently Added, Recently Updated and every SteamRIP category, one at a time, with a jump selector when you already know where to go.
 *   **Search anything:** type a few characters and get one row with every matching game across the whole catalog.
-*   **Game cards:** one click opens the full sheet — cover, rating, genres, themes, game modes, developer, publisher, platforms, description and SteamRIP vs Steam build.
+*   **All games:** the entire catalog in one endless row, newest SteamRip releases first — nothing is left out, even the oldest titles.
+*   **Sort where it makes sense:** Trending and My Library can be ordered by title, SteamRip added date, release date or rating. Date-based rows (New Releases, Recently Added/Updated, the SteamRIP categories and All Games) always keep their own order.
+*   **Game cards:** one click opens the full sheet — cover, rating, genres, themes, game modes, developer, publisher, platforms, description, PEGI/ESRB age ratings and SteamRIP vs Steam build.
 *   **Install in one click:** the *Install* button opens the game in the Games Explorer with its download links ready.
 *   **Built-in trailer player:** fullscreen, volume, mute and smooth seeking; trailers are cached locally, so repeat views start instantly.
 
@@ -110,10 +122,14 @@ In the **Flatpak** build the launcher runs inside a sandbox: seeking works if `f
 
 ---
 
-## What's New in Version 1.6.0?
-*   **Discovery:** a per-category, single-row horizontal scroller with infinite scrolling — doomscroll the SteamRIP catalog until you find your next game. Search across every category from the same search bar.
-*   **Game cards:** click a cover for the full sheet — cover, rating, genres, themes, game modes, developer, publisher, platforms, description and whether the SteamRIP build is up to date with Steam. **Install** opens the game in the Games Explorer with its download links ready.
-*   **Built-in trailer player:** watch trailers without leaving the launcher — fullscreen, volume, mute and smooth seeking. Trailers are cached locally after the first view; on Linux install `ffmpeg` for seeking (on Windows it is bundled).
-*   **Fast and light:** covers, details and descriptions load in the background and are cached, so the launcher opens quickly and browsing stays smooth.
+## What's New in Version 1.6.1?
+# Discovery
+- New **Recently Added** row: the newest SteamRip arrivals, in the same order as the site.
+- **Search the whole catalog:** from two characters the search row matches every title in the master catalog (5,000+), not only the cards already loaded.
+- New **All Games** row: the entire catalog in one endless row, newest SteamRip releases first and the rest alphabetical.
+- **Covers load while you scroll:** rows fetch artwork for the cards that come into view, use the SteamRip page image as a fallback and fall back to a SteamGridDB title lookup for games without a Steam app id.
+- **Sort where it makes sense:** a dropdown orders Trending and My Library by title, SteamRip added date, release date or rating. Date-based rows (New Releases, Recently Added/Updated, the SteamRIP categories and All Games) always keep their own order.
+- **Calmer scrolling:** a 6 px dead zone before a drag starts, a cap on the flick speed, and touchpads no longer jump a row with tiny scrolls.
+- Hover feedback returns as soon as a drag or scroll settles.
 
 ---
