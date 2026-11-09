@@ -1,4 +1,6 @@
- <img src="DiscoveryTab.png" height="120" /><img src="Schermata_20260607_000113.png" height="120" /> <img src="AeThiccLauncherLogoBig.png" width="120" /> <img src="Schermata_20260607_000046.png" height="120" />
+ <img src="DiscoveryTab.png" height="120" /><img src="Schermata_20260607_000113.png" height="120" /><img src="Schermata_20260607_000046.png" height="120" />
+
+ ##<img src="AeThiccLauncherLogoBig.png" width="120" align="center" alt="Ae Thicc Launcher Logo" />
 
 
 
